@@ -1,0 +1,16 @@
+{
+  "name": "iconic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.0.2",
+    "autoprefixer": "^10.0.2"
+  }
+}

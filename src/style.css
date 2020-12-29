@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    body {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+};
+
+@layer components {
+
+    .head {
+        background-image: linear-gradient(180deg, #000, transparent), url("https://assets.website-files.com/5f65635b5ccc19609d778188/5f6b4c88dc1b76035ebdf979_alex-hall-SS-d4nMNwiQ-unsplash.jpg");
+        background-position: 0px 0px, 50% 50%; 
+        background-size: auto, cover;
+        min-height: 55vh;
+    }
+
+    .featured-property{
+     background-color: #d3d3d3;
+     background-image: url("https://assets.website-files.com/5f65635b5ccc19609d778188/5f65635b5ccc19101d778194_can-idle.jpg");
+     background-position: 50% 50%;
+     background-size: cover;
+     height: 650px;
+    }
+
+    .can-maya {
+     background-image: url("https://assets.website-files.com/5f65635b5ccc19629d7781b7/5fd647fe5422071bd73d429a_can-maya-1.jpg");
+     background-position: 50% 50%;
+     background-size: cover;
+
+    }
+
+    .split-img {
+        background-image: url("https://assets.website-files.com/5f65635b5ccc19609d778188/5f65635b5ccc192161778195_bi-window.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    .nav-bar {
+        @apply block bg-gray-300 absolute w-full lg:bg-black;
+    }
+  }
+
+  

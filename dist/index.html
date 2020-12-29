@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Iconic Ibita</title>
+</head>
+<body>
+  
+    
+        <div class="bg-black">
+        <header class="lg:flex lg:justify-between relative mx-auto w-full max-w-7xl">
+
+          <div class="flex px-4 py-8 text-white h-16 items-center">
+            <a href="#" class="justify-start pr-5 font-bold">
+              <span class="font-bold text-xl lg:text-xl">ICONIC</span>
+              <span class="font-light text-2xl lg:text-2xl">Ibiza</span>
+            </a>
+            <div class="lg:hidden inline-flex p-6 ml-auto" id="btn-div">
+              <button onclick="toogle()" type="button" class="block text-white focus:outline-none">
+                <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          
+          <nav id="navbar" class="lg:flex lg:relative hidden">
+          <a href="#" class="block font-bold text-xs text-white px-8 py-8 uppercase">Properties</a>
+          <a href="#" class="block font-bold text-xs text-white px-8 py-8 uppercase">Collections</a>
+          <a href="#" class="block font-bold text-xs text-white px-8 py-8 uppercase">Experiences</a>
+          <a href="#" class="block font-bold text-xs text-white px-8 py-8 uppercase">Services</a>
+          </nav>
+          <a href="#" class=" text-white hidden lg:block lg:flex lg:px-8 lg:py-8">
+              <div class="font-bold text-sm">Call us at +44 590 0050 309</div>
+          </a>
+        </header>
+      </div>
+   
+
+    <div class="head cover no-repeat pt-32 overflow-visible relative">
+        <div class="px-10 max-w-7xl mx-auto">
+        
+          <div class="text-center text-white pb-32 max-w-5xl mx-auto">
+            <h1 class="text-6xl font-bold mb-4">Curated Luxury Properties in Ibiza</h1>
+            <p class="text-2xl">The most beautiful houses to rent, exceptional services and memorable experiences</p>
+          </div>
+        <div class="max-w-7xl mx-auto bg-white relative px-16 py-12 shadow-md z-50">
+          <form class="lg:flex flex-wrap w-full justify-center">
+            <div class="text-left px-4 mb-2.5 ">
+              <label for="Destination" class="block text-gray-700 mb-2">Destination</label>
+              <select name="Destination" id="Destination" class="block text-gray-700 font-light text-lg w-full py-2">
+                <option value="1">Anywhere in Ibiza</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 adults</option>
+                <option value="7">7 or more adults</option>
+              </select>
+            </div>
+            <div class="sm:flex justify-between">
+            <div class="text-left px-4 mb-2.5">
+              <label for="Price" class="block text-gray-700 mb-2">Price</label>
+              <select name="Price" id="Price" class="block text-gray-700 font-light text-lg w-full py-2">
+                <option value="1">€500k - €30m</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 adults</option>
+                <option value="7">7 or more adults</option>
+              </select>
+            </div>
+
+            <div class="flex">
+            <div class="text-left px-4 mb-2.5 ">
+              <label for="Bedrooms" class="block text-gray-700 mb-2">Bedrooms</label>
+              <select name="Bedrooms" id="Bedrooms" class="block text-gray-700 font-light text-lg w-full py-2">
+                <option value="1">1 adult</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 adults</option>
+                <option value="7">7 or more adults</option>
+              </select>
+            </div>
+
+            <div class="text-left px-4 mb-2.5 ">
+              <label for="Type" class="block text-gray-700 mb-2">Type</label>
+              <select name="type" id="type" class="block text-gray-700 font-light text-lg w-full py-2">
+                <option value="1">All</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 adults</option>
+                <option value="7">7 or more adults</option>
+              </select>
+            </div>
+           </div>
+          </div>
+            <div class="mt-4">
+            <input type="submit" value="Search" class="w-full lg:ml-8 px-8 py-3.5 rounded-3xl bg-black text-white font-bold inline-block">
+            </div>
+          </form>
+        </div>
+       
+      </div>
+      
+    </div>
+
+    <div class="pt-28">
+      <div class="max-w-7xl mx-auto text-gray-900 mx-auto">
+        <div class="text-center mb-24">
+          <h5 class="opacity-70 text-xl font-normal">Our Villa Collections</h5>
+          <h2 class="text-5xl mt-4 font-bold">Curated Luxury Villas For Every Taste</h2>
+        </div>
+
+        <div class="flex"> 
+          <div class="mr-6">
+            <a href="#">
+              <img src="../img/family-villas.jpg" alt="family-villas">
+              <h3 class="my-2 text-3xl">Family Friendly Villas</h3>
+              <p class="opacity-70 font-light text-lg">Vacation homes that are perfect for families of all ages to enjoy Ibiza in comfort, safety, and uncompromising luxury.</p>
+            </a>
+          </div>
+          <div class="mr-6">
+            <a href="#">
+              <img src="../img/largest-villas.jpg" alt="largest-villas">
+              <h3 class="my-2 text-3xl">Largest Villas</h3>
+              <p  class="opacity-70 font-light text-lg">Our largest properties are perfect for large groups of friends or families looking to stay in the largest properties on the island.</p>
+            </a>
+          </div>
+          <div class="mr-6">
+            <a href="#">
+              <img src="../img/party-villas.jpg" alt="party-villas">
+              <h3 class="my-2 text-3xl">Party Villas</h3>
+              <p  class="opacity-70 font-light text-lg">A selection of villas that are perfect and allow parties so that you can celebrate life in the most beautiful properties.</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="pt-40">
+      <div class="max-w-7xl mx-auto px-5 text-gray-900">
+          <div class="featured-property flex w-full items-end">
+            <div class="bg-black text-white p-6">
+              <h3 class="text-2xl font-medium mb-2">
+                Can Idle
+              </h3>
+              <div class="text-sm">
+                Cap Martinet, Ibiza
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="pt-40 w-screen overflow-hidden ">
+      <div class="max-w-7xl mx-auto overflow-hidden relative text-gray-900 ">
+
+        <div class="text-center mb-24">
+          <h5 class="opacity-70 text-xl font-normal">Featured Properties</h5>
+          <h2 class="text-5xl mt-4 font-bold">Some of our favorite Ibiza properties</h2>
+        </div>
+
+        <div class="flex "> 
+          <div class="mr-6 w-2/6 overflow-clip">
+            <a href="#">
+              <img src="../img/can-maya.jpg" alt="can-maya">
+              <p class="opacity-70 font-light text-base">5 bedrooms   5 bedrooms   San Jose, Ibiza</p>
+              <h3 class="my-2 text-3xl">Modern 5 Bedroom Finca Farmhouse with Sea Views</h3>
+              <p class="opacity-70 font-light text-base">From $ 6995 per week</p>
+            </a>
+          </div>
+
+          <div class="mr-6 w-2/6 overflow-clip">
+            <a href="#">
+              <img src="../img/Villa-Ibiza-sale-Mario.jpg" alt="Villa-Ibiza-sale-Mario">
+              <p class="opacity-70 font-light text-base">9 bedrooms   4 bedrooms   San Antonio, Ibiza</p>
+              <h3 class="my-2 text-3xl">Traditional 9 Bedroom Villa With Tourist Licence</h3>
+              <p class="opacity-70 font-light text-base">From $ per week</p>
+            </a>
+          </div>
+
+          <div class="mr-6 w-2/6 overflow-clip">
+            <a href="#">
+              <img src="../img/hiltrop.jpg" alt="hiltrop" class="w-11/12">
+              <p class="opacity-70 font-light text-base">6 bedrooms   4 bedrooms   Poroic, Ibiza</p>
+              <h3 class="my-2 text-3xl">Hilltop country House With Panoramic Views</h3>
+              <p class="opacity-70 font-light text-base">From $ per week</p>
+            </a>
+          </div>
+
+          <div class="mr-6 w-2/6 overflow-clip">
+            <a href="#">
+              <img src="../img/beautiful-luxury-villa.jpg" alt="beautiful-luxury-villa">
+              <p class="opacity-70 font-light text-base">6 bedrooms   4 bedrooms  Sa Galera, Ibiza</p>
+              <h3 class="my-2 text-3xl">6 Bedroom Minimalist Luxury With Sea Views In Sa Galera</h3>
+              <p class="opacity-70 font-light text-base">From $ per week</p>
+            </a>
+          </div>
+          
+        </div>
+       
+      </div>
+      
+    </div>
+
+    <div class="pt-40">
+      <div class="max-w-7xl mx-auto px-5 text-gray-900 flex flex-col md:flex-row w-full">
+          <div class="text-white bg-black p-16 flex flex-col md:w-1/2 w-auto justify-center">
+            <h3 class="text-3xl font-bold mb-4">
+              A curated collection of the top villas title go here.
+            </h3>
+            <p class="mb-6 font-light text-base">
+              A collection of homes around the world that feature a flexible cancellation policy, providing you with worry free travel. A collection of homes around the world.
+            </p>
+            <a href="#" class="px-3.5 py-3.5 bg-white rounded-3xl text-black text-center font-bold inline-block w-32 h-auto">
+              Learn More
+            </a>
+          </div>
+          <div class="md:w-1/2 w-auto">
+            <img src="../img/split-image.jpg" alt="split-image" class="w-full h-full">
+          </div>
+      </div>
+    </div>
+
+    <div class="pt-28">
+      <div class="max-w-7xl mx-auto text-gray-900">
+
+        <div class="text-center mb-24">
+          <h5 class="opacity-70 text-lg font-normal">Experiences</h5>
+          <h2 class="text-5xl mt-4 font-bold">Moments Designed To Be Unforgettable</h2>
+        </div>
+
+        <div class="flex "> 
+          <div class="mr-6 w-2/6 overflow-clip">
+            <a href="#">
+              <img src="../img/private-jet.jpg" alt="private-jet" class="object-cover h-72 pb-2">
+              <p class="opacity-70 font-light text-sm">Luxury villa, luxury arrival.</p>
+              <h3 class="my-6 text-3xl">Private Jet Charter</h3>
+            </a>
+          </div>
+          <div class="mr-6 w-2/6 overflow-clip">
+            <a href="#">
+              <img src="../img/clubaccess.jpg" alt="clubaccess" class="object-cover h-72 pb-2">
+              <p  class="opacity-70 font-light text-sm">Get into the most in-demand shows on the island.</p>
+              <h3 class="my-2 text-3xl">VIP Club Access</h3>
+            </a>
+          </div>
+          <div class="mr-6 w-2/6 overflow-clip">
+            <a href="#">
+              <img src="../img/yacht.jpg" alt="yacht"  class="object-cover h-72 pb-2" >
+              <p class="opacity-70 font-light text-sm">Sail off into the sunset in style.</p>
+              <h3 class="my-6 text-3xl">Luxury Yacht Hire</h3>
+            </a>
+          </div>
+          <div class="mr-6 w-2/6 overflow-clip" >
+            <a href="#">
+              <img src="../img/private-jet.jpg" alt="private-jet" class="object-cover h-72 pb-2">
+              <p class="opacity-70 font-light text-sm">This is some text inside of a div block.</p>
+              <h3 class="my-6 text-3xl">Executive Chef</h3>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="pt-40">
+      <div class="max-w-7xl mx-auto px-5 text-gray-900 flex flex-col md:flex-row w-full">
+          <div class="md:w-1/2 w-auto">
+            <img src="../img/split-image-chef.jpg" alt="split-image-chef" class="w-full h-full object-cover">
+          </div>
+          <div class="text-white bg-black p-16 flex flex-col md:w-1/2 w-auto justify-center">
+            <h3 class="text-3xl font-bold mb-4">
+              BookIbiza ensures a holistic luxury get away.
+            </h3>
+            <p class="mb-6 font-light text-base">
+              We can tend to every last need when you book with us, whether that be a private security detail, in-pool DJ or just about anything else, it's all just a call away
+            </p>
+            <div class="flex pb-4 flex-col">
+              <div class="flex py-2">
+              <div class="w-6 h-6 bg-white text-black rounded-3xl text-center mr-4"> ✓ </div>
+              <div>Luxury Car Rental & Driver Hire</div>
+              </div>
+              <div class="flex py-2">
+              <div class="w-6 h-6 bg-white text-black rounded-3xl text-center mr-4"> ✓ </div>
+              <div>Equipment rental</div>
+            </div>
+            <div class="flex py-2">
+              <div class="w-6 h-6 bg-white text-black rounded-3xl text-center mr-4"> ✓ </div>
+              <div>Private Chef Hire</div>
+            </div>
+            <div class="flex py-2">
+              <div class="w-6 h-6 bg-white text-black rounded-3xl text-center mr-4"> ✓ </div>
+              <div>& So Much More</div>
+            </div>
+            </div>
+            <div class="flex text-xs">
+            <a href="#" class="px-3.5 py-3.5 bg-white rounded-3xl text-black text-center font-bold inline-block w-32 h-auto">
+              Learn More
+            </a>
+            <div class="ml-4 py-3.5">or call us at </div>
+            <a href="#" class="py-3.5">+44 590 4900 367</a>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="mt-40 py-28 bg-gray-200">
+      <div class="mx-auto px-4 md:px-0 max-w-7xl flex flex-col md:flex-row justify-between text-gray-800">
+        <div class="pr-20 md:w-1/3 w-auto">
+          <h3 class="text-3xl font-bold mb-4">
+            Let's find your home away from home in Ibiza.
+          </h3>
+          <div class="flex text-sm">
+            <a href="#" class="px-3.5 py-3.5 bg-black rounded-3xl text-white text-center font-bold inline-block w-32 h-auto">
+              Learn More
+            </a>
+            <div class="ml-4 py-3.5">or call us at </div>
+            <a href="#" class="py-3.5">+44 590 4900 367</a>
+          </div>
+        </div>
+        <div class="md:w-1/3 w-auto">
+          <div class="flex pb-4 flex-col">
+            <div class="flex py-2">
+            <div class="w-6 h-6 bg-black text-white rounded-3xl text-center mr-4"> ✓ </div>
+            <div>Top Vacation Homes</div>
+          </div>
+          <div class="flex py-2">
+            <div class="w-6 h-6 bg-black text-white rounded-3xl text-center mr-4"> ✓ </div>
+            <div>24/7 Concierge Availability</div>
+          </div>
+          <div class="flex py-2">
+            <div class="w-6 h-6 bg-black text-white rounded-3xl text-center mr-4"> ✓ </div>
+            <div>Top Vacation Homes</div>
+          </div>
+          </div>
+        </div>
+        <div class="md:w-1/3 w-auto">
+          <div class="flex pb-4 flex-col">
+            <div class="flex py-2">
+            <div class="w-6 h-6 bg-black text-white rounded-3xl text-center mr-4"> ✓ </div>
+            <div>All Personally Inspected</div>
+          </div>
+          <div class="flex py-2">
+            <div class="w-6 h-6 bg-black text-white rounded-3xl text-center mr-4"> ✓ </div>
+            <div>Curated Experience</div>
+          </div>
+          <div class="flex py-2">
+            <div class="w-6 h-6 bg-black text-white rounded-3xl text-center mr-4"> ✓ </div>
+            <div>Top Vacation Homes</div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-24 bg-black">
+      <div class="mx-auto px-4 md:px-0 max-w-7xl flex flex-col md:flex-row justify-between text-white">
+        <div class="pr-20 w-auto md:w-1/2 ">
+          <div>
+            <h3 class="mb-4 text-2xl">ICONICIbiza</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
+          </div>
+        </div>
+        
+        <div class="md:w-1/6 w-auto">
+          <div class="flex flex-col w-auto">
+            <h4 class="text-lg mb-4 text-sm">Footer Nav Title</h4>
+            <a href="#" class="mb-2 text-sm">About us</a>
+            <a href="#" class="mb-2 text-sm">Careers</a>
+            <a href="#" class="mb-2 text-sm">Contact us</a>
+            <a href="#" class="mb-2 text-sm">Media</a>
+          </div>
+        </div>
+
+        <div class="md:w-1/6 w-auto">
+          <div class="flex flex-col w-auto">
+            <h4 class="text-lg mb-4 text-sm">Footer Nav Title</h4>
+            <a href="#" class="mb-2 text-sm">About us</a>
+            <a href="#" class="mb-2 text-sm">Careers</a>
+            <a href="#" class="mb-2 text-sm">Contact us</a>
+            <a href="#" class="mb-2 text-sm">Media</a>
+          </div>
+        </div>
+
+        <div class="md:w-1/6 w-auto">
+          <div class="flex flex-col w-auto">
+            <h4 class="text-lg mb-4">Footer Nav Title</h4>
+            <a href="#" class="mb-2 text-sm">About us</a>
+            <a href="#" class="mb-2 text-sm">Careers</a>
+            <a href="#" class="mb-2 text-sm">Contact us</a>
+            <a href="#" class="mb-2 text-sm">Media</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-24 py-6 flex justify-between border-t border-gray-500 text-white mx-auto max-w-7xl">
+        <div class="text-xs">© 1996-2020 ICONICIbiza - All rights reserved.</div>
+        <div class="text-xs text-gray-500">
+          <a href="#" class="mr-4">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+
+     <script src='script.js'></script>
+     
+</body>
+</html>
